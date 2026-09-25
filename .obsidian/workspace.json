@@ -1,0 +1,422 @@
+{
+  "main": {
+    "id": "e8b1e7079213cea7",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a0fe6c66f88da91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de2c4d076d9ffcf7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
+          },
+          {
+            "id": "48b51a0c4672cdcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "POST-EXPLOITATION/Enumeration Checklist to Run Inside Your CLI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Enumeration Checklist to Run Inside Your CLI"
+            }
+          },
+          {
+            "id": "07bca3c63cf1ba89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ENUMERATION/Web site foothold.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Web site foothold"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "59f5b281e6b58f79",
+    "type": "split",
+    "children": [
+      {
+        "id": "941175c1b68bc5c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49d2e38fa784abc2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "91c119d2813493c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "impac",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f96d0dd5b100941c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7a605ebd7d88e884",
+    "type": "split",
+    "children": [
+      {
+        "id": "57f02e6917260f9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0749071249cbc61a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "POST EXPLOITATION - DOCKER CONTAINER/Network Pivoting with Ligolo-ng.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Network Pivoting with Ligolo-ng"
+            }
+          },
+          {
+            "id": "2832ae88491beccb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ef987eada1a092d0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "POST-EXPLOITATION/Enumeration Checklist to Run Inside Your CLI.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "234e1b52f43a3509",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "acfee9d8c712cec4",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "f9e6d96c08f6c5f9",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "34ada4ce040e1290",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "244889e36b790803",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "f03fbd0fe7e34dce",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "0973b8c9049c677e",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "7711c1c662e3b4d7",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "09b24090f2e19672",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "4d2cc0b2874dce13",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "c7ea46f4ae9f1153",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "c5feba088f7ff76b",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "b8056bd3db8bfe39",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "5250c79fb74c0274",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "db60bf747bddb875",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "da108edba16f1c08",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "a1db7ba901f4faef",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "8926545c4f5945d9",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "juggl:Juggl global graph": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "48b51a0c4672cdcf",
+  "lastOpenFiles": [
+    "POST-EXPLOITATION/Developing a Python Wrapper.md",
+    "POST-EXPLOITATION/Enumeration Checklist to Run Inside Your CLI.md",
+    "ENUMERATION/Web site foothold.md",
+    "POST-EXPLOITATION",
+    "About this lab.md",
+    "ENUMERATION/Port scanning.md",
+    "images/rce.png",
+    "images/web_tickets_buy_now.png",
+    "images/Untitled.md",
+    "images/image.png",
+    "images",
+    "ENUMERATION",
+    "Access/README.md",
+    "Access",
+    "PRIVILEGE ESCALATION/Enumerate.md",
+    "EXPLOITATION/WinPEAS and CVE-2024-30088.md",
+    "EXPLOITATION/Reverse shell on DC02.md",
+    "EXPLOITATION/Shell as darkzero-ext svc_sql on DC02.md",
+    "EXPLOITATION/Sysadmin on DC02 via linked server.md",
+    "EXPLOITATION/Lateral Movement via MSSQL Linked Server.md",
+    "ENUMERATION/SMB Enumeration (unauthenticated).md",
+    "ENUMERATION/Adding hosts.md",
+    "ENUMERATION/Services and ports.md",
+    "index.md",
+    "README.md",
+    "images/Screenshot_2026-04-08_09-18-19.png",
+    "PRIVILEGE ESCALATION/Escalation attack.md",
+    "images/Screenshot_2026-04-03_10-34-13.png",
+    "images/Screenshot_2026-04-03_09-49-56.png",
+    "EXPLOITATION/RCE as darkzero-ext user svc_sql.md",
+    "PRIVILEGE ESCALATION/Skip BloodHound — manual ACL check.md",
+    "PRIVILEGE ESCALATION/Tunneling through DC02 with chisel.md",
+    "images/Screenshot_2026-04-01_16-49-34.png",
+    "images/Screenshot_2026-04-01_10-37-11.png",
+    "PRIVILEGE ESCALATION/Attack Path - RBCD via MachineAccountQuota.md",
+    "images/Screenshot_2026-04-01_09-18-41.png",
+    "PRIVILEGE ESCALATION/ADCS enumeration.md",
+    "images/Screenshot_2026-04-01_09-11-10.png",
+    "PRIVILEGE ESCALATION/Drawing 2026-03-28 11.03.22.excalidraw.md",
+    "EXPLOITATION/Drawing 2026-03-27 10.52.23.excalidraw.md",
+    "PRIVILEGE ESCALATION",
+    "EXPLOITATION",
+    "docs/lib/metadata.json",
+    "docs/lib/media",
+    "docs/lib/fonts/01dcbad1bac635f9c9cd.woff2",
+    "docs/lib/fonts/c504db5c06caaf7cdfba.woff2",
+    "EXPLOITATION/Untitled.canvas"
+  ]
+}

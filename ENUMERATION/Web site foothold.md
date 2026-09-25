@@ -1,0 +1,43 @@
+As the port 80 is open, I browse the web.
+
+Located a file upload functionality within the *web application*. Initial attempts to upload a standard PHP web shell failed because the server returned raw source code or triggered errors, indicating a mismatch between the expected file handlers and the payload format.
+
+![[web_tickets_buy_now.png|982]]
+
+## 1. Vulnerability Analysis & Bypasses
+
+- **Initial Restrictions:** The web application initially treated uploaded scripts as static text files due to strict directory handler configurations (initially tested via a restrictive `web.config` layout).
+    
+- **Leveraging Apache/PHP Misconfigurations (Lab Context):** Although the underlying OS was identified as Windows Server 2019, the web application stack utilized an Apache-compatible or mixed emulation layer that respected `.htaccess` overrides.
+    
+- **Bypass Strategy:**
+    
+    1. Uploaded a custom `.htaccess` configuration file to map arbitrary or permitted file extensions to the PHP execution handler (`AddType application/x-httpd-php`).
+        
+    2. Uploaded a PHP web shell disguised or paired with the allowed extension format (e.g., utilizing `shell_exec()` or `passthru()`).
+        
+
+## 2. Exploitation & Verification
+
+- **Execution:** Navigated to the uploaded shell via the web browser, passing system commands through the query parameter (e.g., `?cmd=whoami`).
+    
+- **Result:** The server successfully parsed and executed the PHP code via the `.htaccess` mapping, returning the command output and granting **Remote Code Execution (RCE)** on the target.
+
+![[rce.png]]
+### ## Summary of Artifacts Used
+
+- `.htaccess` Override:
+  
+    ```
+    AddType application/x-httpd-php .rce
+    ```
+    
+- PHP Web Shell Payload (`shell.rce`):
+
+  ```php
+    <?php
+    if(isset($_GET['cmd'])){
+        echo "<pre>" . shell_exec($_GET['cmd']) . "</pre>";
+    }
+    ?>
+    ```
