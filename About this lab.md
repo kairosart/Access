@@ -6,9 +6,9 @@ A foothold in the lab will be gained by leveraging a file upload function in a w
 **After completion of this lab, learners will be able to:**
 
 - Exploit the file upload functionality to upload a *.htaccess* file and a *PHP web shell*.
-- Use the web shell to establish a reverse shell as the svc_apache user.
-- Perform a Kerberoasting attack to crack the svc_mssql account password.
-- Exploit the SeManageVolumePrivilege to grant full control over the Windows directory.
+- Use the web shell to establish a reverse shell as the *svc_apache* user.
+- Perform a Kerberoasting attack to crack the *svc_mssql* account password.
+- Exploit the *SeManageVolumePrivilege* to grant full control over the Windows directory.
 - Exploit the unrestricted file write privileges to gain SYSTEM-level access and validate control over a vulnerable service. The exploitation of this service must be performed correctly, else a subsequent attack will fail. Please be sure to revert the lab between privilege escalation attempts.
 
 ## Lab Description

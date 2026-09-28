@@ -11,12 +11,15 @@
             "id": "de2c4d076d9ffcf7",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "LOCAL PRIVILEGE ESCALATION/5. Kerberosting attack.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
+              "icon": "lucide-file",
+              "title": "5. Kerberosting attack"
             }
           },
           {
@@ -25,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "POST-EXPLOITATION/Enumeration Checklist to Run Inside Your CLI.md",
+                "file": "POST-EXPLOITATION & CLI Tooling/4. Enumeration Checklist to Run Inside Your CLI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration Checklist to Run Inside Your CLI"
+              "title": "4. Enumeration Checklist to Run Inside Your CLI"
             }
           },
           {
@@ -40,17 +43,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENUMERATION/Web site foothold.md",
+                "file": "LOCAL PRIVILEGE ESCALATION/5. Kerberosting attack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Web site foothold"
+              "title": "5. Kerberosting attack"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "POST-EXPLOITATION/Enumeration Checklist to Run Inside Your CLI.md",
+                "file": "LOCAL PRIVILEGE ESCALATION/5. Kerberosting attack.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -369,18 +372,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "48b51a0c4672cdcf",
+  "active": "07bca3c63cf1ba89",
   "lastOpenFiles": [
-    "POST-EXPLOITATION/Developing a Python Wrapper.md",
-    "POST-EXPLOITATION/Enumeration Checklist to Run Inside Your CLI.md",
-    "ENUMERATION/Web site foothold.md",
-    "POST-EXPLOITATION",
     "About this lab.md",
-    "ENUMERATION/Port scanning.md",
-    "images/rce.png",
-    "images/web_tickets_buy_now.png",
+    "ENUMERATION/2. File Upload Enumeration & Obstacles.md",
+    "POST-EXPLOITATION & CLI Tooling/4. Enumeration Checklist to Run Inside Your CLI.md",
+    "LOCAL PRIVILEGE ESCALATION/5. Kerberosting attack.md",
+    "images/kerberoasting_diagram.jpeg",
+    "images/cracked.png",
+    "images/hashcat-1.png",
+    "images/hashcat.png",
+    "images/hashes.png",
+    "images/Rubeus.png",
+    "images/spn.png",
+    "LOCAL PRIVILEGE ESCALATION",
+    "POST-EXPLOITATION & CLI Tooling/3. Developing a Python Wrapper.md",
+    "images/net_user_domain.png",
+    "images/net_config_workstation.png",
+    "images/active_connections.png",
+    "ENUMERATION/1. Reconnaissance & Target Profiling.md",
+    "POST-EXPLOITATION & CLI Tooling",
     "images/Untitled.md",
-    "images/image.png",
     "images",
     "ENUMERATION",
     "Access/README.md",
@@ -396,27 +408,17 @@
     "ENUMERATION/Services and ports.md",
     "index.md",
     "README.md",
-    "images/Screenshot_2026-04-08_09-18-19.png",
     "PRIVILEGE ESCALATION/Escalation attack.md",
-    "images/Screenshot_2026-04-03_10-34-13.png",
-    "images/Screenshot_2026-04-03_09-49-56.png",
     "EXPLOITATION/RCE as darkzero-ext user svc_sql.md",
     "PRIVILEGE ESCALATION/Skip BloodHound — manual ACL check.md",
     "PRIVILEGE ESCALATION/Tunneling through DC02 with chisel.md",
-    "images/Screenshot_2026-04-01_16-49-34.png",
-    "images/Screenshot_2026-04-01_10-37-11.png",
     "PRIVILEGE ESCALATION/Attack Path - RBCD via MachineAccountQuota.md",
-    "images/Screenshot_2026-04-01_09-18-41.png",
     "PRIVILEGE ESCALATION/ADCS enumeration.md",
-    "images/Screenshot_2026-04-01_09-11-10.png",
-    "PRIVILEGE ESCALATION/Drawing 2026-03-28 11.03.22.excalidraw.md",
-    "EXPLOITATION/Drawing 2026-03-27 10.52.23.excalidraw.md",
     "PRIVILEGE ESCALATION",
     "EXPLOITATION",
     "docs/lib/metadata.json",
     "docs/lib/media",
     "docs/lib/fonts/01dcbad1bac635f9c9cd.woff2",
-    "docs/lib/fonts/c504db5c06caaf7cdfba.woff2",
     "EXPLOITATION/Untitled.canvas"
   ]
 }
