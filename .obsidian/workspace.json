@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOCAL PRIVILEGE ESCALATION/5. Kerberoasting attack.md",
+                "file": "LOCAL PRIVILEGE ESCALATION/6. RunasCs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "5. Kerberoasting attack"
+              "title": "6. RunasCs"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOCAL PRIVILEGE ESCALATION/6. RunasCs.md",
+                "file": "LOCAL PRIVILEGE ESCALATION/7. SeManageVolumePrivilege.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "6. RunasCs"
+              "title": "7. SeManageVolumePrivilege"
             }
           },
           {
@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOCAL PRIVILEGE ESCALATION/7. SeManageVolumePrivilege.md",
+                "file": "LOCAL PRIVILEGE ESCALATION/8. DLL Hijacking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7. SeManageVolumePrivilege"
+              "title": "8. DLL Hijacking"
             }
           }
         ],
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LOCAL PRIVILEGE ESCALATION/7. SeManageVolumePrivilege.md",
+                "file": "LOCAL PRIVILEGE ESCALATION/8. DLL Hijacking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -390,14 +390,17 @@
   "active": "85fb5a8fa9424bf4",
   "lastOpenFiles": [
     "LOCAL PRIVILEGE ESCALATION/6. RunasCs.md",
+    "LOCAL PRIVILEGE ESCALATION/5. Kerberoasting attack.md",
+    "LOCAL PRIVILEGE ESCALATION/8. DLL Hijacking.md",
+    "images/tzres.dll.png",
     "LOCAL PRIVILEGE ESCALATION/7. SeManageVolumePrivilege.md",
+    "images/SeManageVolumeExploit.png",
     "LOCAL PRIVILEGE ESCALATION/6. BloodHound.md",
     "images/svc_mssql_privileges.png",
     "images/image-1.png",
     "POST-EXPLOITATION & CLI Tooling/4. Enumeration Checklist to Run Inside Your CLI.md",
     "ENUMERATION/2. File Upload Enumeration & Obstacles.md",
     "images/test_runascs.png",
-    "LOCAL PRIVILEGE ESCALATION/5. Kerberoasting attack.md",
     "POST-EXPLOITATION & CLI Tooling/3. Developing a Python Wrapper.md",
     "ENUMERATION/1. Reconnaissance & Target Profiling.md",
     "About this lab.md",
@@ -406,8 +409,6 @@
     "images/cracked.png",
     "images/hashcat-1.png",
     "images/hashcat.png",
-    "images/hashes.png",
-    "images/Rubeus.png",
     "LOCAL PRIVILEGE ESCALATION",
     "POST-EXPLOITATION & CLI Tooling",
     "images/Untitled.md",
@@ -428,8 +429,6 @@
     "README.md",
     "PRIVILEGE ESCALATION/Escalation attack.md",
     "EXPLOITATION/RCE as darkzero-ext user svc_sql.md",
-    "PRIVILEGE ESCALATION/Skip BloodHound — manual ACL check.md",
-    "PRIVILEGE ESCALATION/Tunneling through DC02 with chisel.md",
     "PRIVILEGE ESCALATION",
     "EXPLOITATION",
     "docs/lib/metadata.json",
