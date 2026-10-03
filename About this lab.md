@@ -14,3 +14,7 @@ A foothold in the lab will be gained by leveraging a file upload function in a w
 ## Lab Description
 
 This lab demonstrates exploiting a file upload vulnerability in a web application to gain initial access by uploading a .htaccess file and a web shell. Learners escalate privileges by leveraging the svc_mssql account's SeManageVolumePrivilege to gain full control over the C: drive, followed by executing a SYSTEM shell using a Windows Error Reporting (WER) exploit. This lab emphasizes web exploitation, Kerberoasting, and privilege escalation through volume management.
+
+## Areas Improved
+
+*Active Directory ExploitationManual Vulnerability ExploitationPassword Cracking (Hashcat, John The Ripper)Penetration TestingPost-Exploitation TechniquesPrivilege Escalation And Lateral Movement (Cloud And On-Premises)Scripting (Python, Bash, PowerShell)Web Application Penetration TestingWeb Security Testing (Open Web Application Security Project Top Ten)*

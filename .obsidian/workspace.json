@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOCAL PRIVILEGE ESCALATION/6. RunasCs.md",
+                "file": "c. LOCAL PRIVILEGE ESCALATION/6. RunasCs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOCAL PRIVILEGE ESCALATION/8. DLL Hijacking.md",
+                "file": "c. LOCAL PRIVILEGE ESCALATION/8. DLL Hijacking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOCAL PRIVILEGE ESCALATION/9. Flags.md",
+                "file": "A. ENUMERATION/1. Reconnaissance & Target Profiling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "9. Flags"
+              "title": "1. Reconnaissance & Target Profiling"
             }
           }
         ],
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LOCAL PRIVILEGE ESCALATION/9. Flags.md",
+                "file": "A. ENUMERATION/1. Reconnaissance & Target Profiling.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -350,12 +350,32 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "8926545c4f5945d9",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "77b9f82da5701df4",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
               "icon": "ag-node-list",
               "title": "Juggl nodes"
             }
           },
           {
-            "id": "8926545c4f5945d9",
+            "id": "c0720f8a3e3166b1",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -384,37 +404,44 @@
       "juggl:Juggl global graph": false,
       "webpage-html-export:Export Vault to HTML": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "custom-sort:Toggle custom sorting": false,
+      "print-studio:Print Studio": false
     }
   },
-  "active": "85fb5a8fa9424bf4",
+  "active": "49d2e38fa784abc2",
   "lastOpenFiles": [
-    "LOCAL PRIVILEGE ESCALATION/8. DLL Hijacking.md",
-    "LOCAL PRIVILEGE ESCALATION/9. Flags.md",
-    "LOCAL PRIVILEGE ESCALATION/7. SeManageVolumePrivilege.md",
+    "Access-Lab-Walkthrough.pdf",
+    "Access.zip",
+    "A. ENUMERATION/2. File Upload Enumeration & Obstacles.md",
+    "A. ENUMERATION/1. Reconnaissance & Target Profiling.md",
+    "About this lab.md",
+    "B. POST-EXPLOITATION & CLI Tooling/4. Enumeration Checklist to Run Inside Your CLI.md",
+    "Welcome.md",
+    "POST-EXPLOITATION & CLI Tooling/Untitled 1",
+    "POST-EXPLOITATION & CLI Tooling/Untitled",
+    "B. POST-EXPLOITATION & CLI Tooling/3. Developing a Python Wrapper.md",
+    "c. LOCAL PRIVILEGE ESCALATION/8. DLL Hijacking.md",
+    "c. LOCAL PRIVILEGE ESCALATION/9. Flags.md",
+    "c. LOCAL PRIVILEGE ESCALATION/7. SeManageVolumePrivilege.md",
+    "c. LOCAL PRIVILEGE ESCALATION/6. RunasCs.md",
+    "images/system_shell.png",
+    "images/RunasCs.png",
+    "c. LOCAL PRIVILEGE ESCALATION/5. Kerberoasting attack.md",
     "images/nt_authority.png",
     "images/ntsystem_shell.png",
-    "LOCAL PRIVILEGE ESCALATION/6. RunasCs.md",
-    "LOCAL PRIVILEGE ESCALATION/5. Kerberoasting attack.md",
     "images/tzres.dll.png",
     "images/SeManageVolumeExploit.png",
     "LOCAL PRIVILEGE ESCALATION/6. BloodHound.md",
     "images/svc_mssql_privileges.png",
     "images/image-1.png",
-    "POST-EXPLOITATION & CLI Tooling/4. Enumeration Checklist to Run Inside Your CLI.md",
-    "ENUMERATION/2. File Upload Enumeration & Obstacles.md",
     "images/test_runascs.png",
-    "POST-EXPLOITATION & CLI Tooling/3. Developing a Python Wrapper.md",
-    "ENUMERATION/1. Reconnaissance & Target Profiling.md",
-    "About this lab.md",
     "images/bloodhound.png",
-    "images/kerberoasting_diagram.jpeg",
-    "images/cracked.png",
-    "LOCAL PRIVILEGE ESCALATION",
-    "POST-EXPLOITATION & CLI Tooling",
+    "c. LOCAL PRIVILEGE ESCALATION",
+    "B. POST-EXPLOITATION & CLI Tooling",
     "images/Untitled.md",
     "images",
-    "ENUMERATION",
+    "A. ENUMERATION",
     "Access/README.md",
     "Access",
     "PRIVILEGE ESCALATION/Enumerate.md",
@@ -428,13 +455,8 @@
     "ENUMERATION/Services and ports.md",
     "index.md",
     "README.md",
-    "PRIVILEGE ESCALATION/Escalation attack.md",
-    "EXPLOITATION/RCE as darkzero-ext user svc_sql.md",
     "PRIVILEGE ESCALATION",
     "EXPLOITATION",
-    "docs/lib/metadata.json",
-    "docs/lib/media",
-    "docs/lib/fonts/01dcbad1bac635f9c9cd.woff2",
     "EXPLOITATION/Untitled.canvas"
   ]
 }

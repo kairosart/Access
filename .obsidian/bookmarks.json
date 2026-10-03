@@ -207,6 +207,19 @@
       "ctime": 1768848598621,
       "path": "EXPLOITATION/Clients and shares.md",
       "subpath": "#Lists clients connected to the server"
+    },
+    {
+      "type": "group",
+      "ctime": 1791018440778,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1791018440778,
+          "items": [],
+          "title": "B. POST-EXPLOITATION & CLI Tooling"
+        }
+      ],
+      "title": "sortspec"
     }
   ]
 }
