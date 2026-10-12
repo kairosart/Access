@@ -56,15 +56,12 @@
             "id": "85fb5a8fa9424bf4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "A. ENUMERATION/1. Reconnaissance & Target Profiling.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "access-report.pdf"
               },
-              "icon": "lucide-file",
-              "title": "1. Reconnaissance & Target Profiling"
+              "icon": "lucide-file-text",
+              "title": "access-report"
             }
           }
         ],
@@ -175,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A. ENUMERATION/1. Reconnaissance & Target Profiling.md",
+                "file": "access-report.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -409,12 +406,15 @@
       "print-studio:Print Studio": false
     }
   },
-  "active": "49d2e38fa784abc2",
+  "active": "85fb5a8fa9424bf4",
   "lastOpenFiles": [
     "Access-Lab-Walkthrough.pdf",
+    "access-report.pdf",
+    "Report generation.md",
+    "frontpage.png",
+    "A. ENUMERATION/1. Reconnaissance & Target Profiling.md",
     "Access.zip",
     "A. ENUMERATION/2. File Upload Enumeration & Obstacles.md",
-    "A. ENUMERATION/1. Reconnaissance & Target Profiling.md",
     "About this lab.md",
     "B. POST-EXPLOITATION & CLI Tooling/4. Enumeration Checklist to Run Inside Your CLI.md",
     "Welcome.md",
@@ -436,7 +436,6 @@
     "images/svc_mssql_privileges.png",
     "images/image-1.png",
     "images/test_runascs.png",
-    "images/bloodhound.png",
     "c. LOCAL PRIVILEGE ESCALATION",
     "B. POST-EXPLOITATION & CLI Tooling",
     "images/Untitled.md",
@@ -454,9 +453,7 @@
     "ENUMERATION/Adding hosts.md",
     "ENUMERATION/Services and ports.md",
     "index.md",
-    "README.md",
     "PRIVILEGE ESCALATION",
-    "EXPLOITATION",
     "EXPLOITATION/Untitled.canvas"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "lab": "access",
+  "os": "Windows",
+  "title": "OffSec Proving Grounds",
+  "report_type": "Penetration Test Report",
+  "user_flag": "",
+  "root_flag": "",
+  "summary": "File upload (.htaccess + PHP webshell) to a shell as svc_apache · Kerberoast svc_mssql · SeManageVolumePrivilege → SYSTEM (WER)",
+  "front_image": "frontpage.png",
+  "exclude": ["Report generation.md"]
+}
